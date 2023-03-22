@@ -1,0 +1,110 @@
+.desc-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 194px;
+  height: 33px;
+  border-radius: 15px;
+  border-style: none;
+  color: hsl(25, 97%, 53%);
+  background: #1a1a1a;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.createP {
+  text-align: center !important;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+body, html {
+  background: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+main #main-article {
+  width: 412px;
+  height: 416px;
+  border-radius: 30px;
+  background: hsl(213, 19%, 18%);
+}
+main #main-article .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+main #main-article .content .star-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51px;
+  height: 51px;
+  border-radius: 50px;
+  background-color: #292828;
+}
+main #main-article .content .btn-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+main #main-article .content .btn-container .btn-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border-style: none;
+  cursor: pointer;
+  color: hsl(217, 12%, 63%);
+  background: #1a1a1a;
+  transition: background, 200ms;
+}
+main #main-article .content .btn-container .btn-circle:hover {
+  background: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+main #main-article .content .btn-container .btn-circle:focus {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+main #main-article .content .btn-container .btn-circle:active {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+main #main-article .content #btn-submit {
+  align-self: center;
+  margin-top: 30px;
+  width: 345px;
+  height: 45px;
+  border-radius: 40px;
+  border-style: none;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  background: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+main #main-article .content #btn-submit:active {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+main #main-article .content h1 {
+  color: hsl(0, 0%, 100%);
+}
+main #main-article .content p {
+  color: hsl(217, 12%, 63%);
+  margin-top: -10px;
+}/*# sourceMappingURL=styles.css.map */

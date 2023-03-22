@@ -1,0 +1,29 @@
+$orange: hsl(25, 97%, 53%);
+
+.desc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 194px;
+    height: 33px;
+    border-radius: 15px;
+    border-style: none;
+    color: $orange;
+    background: #1a1a1a;
+    // border: 2px solid red;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.createP{
+    text-align: center !important;
+}
+
+.center{
+    margin: 0 auto;
+}
